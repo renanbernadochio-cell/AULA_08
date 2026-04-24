@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff7fb;
+  margin: 0;
+  padding: 20px;
+}
+
+.caixa {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 180px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.foto-topo {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #7b2cbf;
+  margin-bottom: 10px;
+}
+
+.texto {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.historia {
+  background: #f7f0ff;
+  border-left: 5px solid #7b2cbf;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.historia h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.historia p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.bloco {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.lado-form {
+  flex: 1;
+}
+
+.lado-foto {
+  width: 260px;
+}
+
+.foto-lado {
+  width: 100%;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .bloco {
+    flex-direction: column;
+  }
+
+  .lado-foto {
+    width: 100%;
+  }
+}
